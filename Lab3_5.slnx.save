@@ -1,0 +1,7 @@
+
+<Solution>
+  <Project Path="Lab3_5.BLL/Lab3_5.BLL.csproj" />
+  <Project Path="Lab3_5.DAL/Lab3_5.DAL.csproj" />
+  <Project Path="Lab3_5.PL/Lab3_5.PL.csproj" />
+  <Project Path="Lab3_5.Tests/Lab3_5.Tests.csproj" />
+</Solution>

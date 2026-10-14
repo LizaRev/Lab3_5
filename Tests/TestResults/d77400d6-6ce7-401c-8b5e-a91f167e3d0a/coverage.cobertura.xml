@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1789558372" lines-covered="93" lines-valid="93" branches-covered="32" branches-valid="32">
+  <sources>
+    <source>/Users/elizavetarevun/Lab3_5/BLL/</source>
+  </sources>
+  <packages>
+    <package name="BLL" line-rate="1" branch-rate="1" complexity="50">
+      <classes>
+        <class name="BLL.StudentService" filename="StudentService.cs" line-rate="1" branch-rate="1" complexity="33">
+          <methods>
+            <method name="GetForeignExcellentFirstYearStudents" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="16" hits="15" branch="False" />
+                <line number="17" hits="15" branch="False" />
+                <line number="19" hits="15" branch="False" />
+                <line number="21" hits="5" branch="False" />
+                <line number="23" hits="29" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="120" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="7" branch="False" />
+                <line number="25" hits="7" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="100%" />
+                    <condition number="71" type="jump" coverage="100%" />
+                    <condition number="100" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="7" branch="False" />
+                <line number="27" hits="7" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="7" branch="False" />
+                <line number="33" hits="5" branch="False" />
+                <line number="34" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="CanObtainUkrainianCitizenship" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="37" hits="4" branch="False" />
+                <line number="38" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="44" hits="3" branch="False" />
+                <line number="45" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="ValidateStudents" signature="(System.Collections.Generic.List`1&lt;BLL.Entities.Student&gt;)" line-rate="1" branch-rate="1" complexity="22">
+              <lines>
+                <line number="48" hits="15" branch="False" />
+                <line number="49" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="54" hits="65" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="240" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="16" branch="False" />
+                <line number="56" hits="16" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="49" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="62" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="79" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="68" hits="14" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="108" type="jump" coverage="100%" />
+                    <condition number="134" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="69" hits="14" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="75" hits="12" branch="True" condition-coverage="100% (10/10)">
+                  <conditions>
+                    <condition number="159" type="jump" coverage="100%" />
+                    <condition number="172" type="jump" coverage="100%" />
+                    <condition number="185" type="jump" coverage="100%" />
+                    <condition number="198" type="jump" coverage="100%" />
+                    <condition number="218" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="76" hits="12" branch="False" />
+                <line number="77" hits="12" branch="False" />
+                <line number="78" hits="12" branch="False" />
+                <line number="79" hits="12" branch="False" />
+                <line number="80" hits="5" branch="False" />
+                <line number="81" hits="5" branch="False" />
+                <line number="82" hits="5" branch="False" />
+                <line number="84" hits="7" branch="False" />
+                <line number="85" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(BLL.Interfaces.IStudentDataProvider)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="19" branch="False" />
+                <line number="11" hits="19" branch="False" />
+                <line number="12" hits="19" branch="False" />
+                <line number="13" hits="19" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="15" branch="False" />
+            <line number="17" hits="15" branch="False" />
+            <line number="19" hits="15" branch="False" />
+            <line number="21" hits="5" branch="False" />
+            <line number="23" hits="29" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="120" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="24" hits="7" branch="False" />
+            <line number="25" hits="7" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="53" type="jump" coverage="100%" />
+                <condition number="71" type="jump" coverage="100%" />
+                <condition number="100" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="7" branch="False" />
+            <line number="27" hits="7" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="7" branch="False" />
+            <line number="33" hits="5" branch="False" />
+            <line number="34" hits="5" branch="False" />
+            <line number="37" hits="4" branch="False" />
+            <line number="38" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="44" hits="3" branch="False" />
+            <line number="45" hits="3" branch="False" />
+            <line number="48" hits="15" branch="False" />
+            <line number="49" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="54" hits="65" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="240" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="55" hits="16" branch="False" />
+            <line number="56" hits="16" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="49" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="62" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="79" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="68" hits="14" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="108" type="jump" coverage="100%" />
+                <condition number="134" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="69" hits="14" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="75" hits="12" branch="True" condition-coverage="100% (10/10)">
+              <conditions>
+                <condition number="159" type="jump" coverage="100%" />
+                <condition number="172" type="jump" coverage="100%" />
+                <condition number="185" type="jump" coverage="100%" />
+                <condition number="198" type="jump" coverage="100%" />
+                <condition number="218" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="76" hits="12" branch="False" />
+            <line number="77" hits="12" branch="False" />
+            <line number="78" hits="12" branch="False" />
+            <line number="79" hits="12" branch="False" />
+            <line number="80" hits="5" branch="False" />
+            <line number="81" hits="5" branch="False" />
+            <line number="82" hits="5" branch="False" />
+            <line number="84" hits="7" branch="False" />
+            <line number="85" hits="5" branch="False" />
+            <line number="10" hits="19" branch="False" />
+            <line number="11" hits="19" branch="False" />
+            <line number="12" hits="19" branch="False" />
+            <line number="13" hits="19" branch="False" />
+          </lines>
+        </class>
+        <class name="BLL.Entities.Person" filename="Entities/Person.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="22" branch="False" />
+                <line number="10" hits="22" branch="False" />
+                <line number="11" hits="22" branch="False" />
+                <line number="12" hits="22" branch="False" />
+                <line number="13" hits="22" branch="False" />
+                <line number="14" hits="22" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="4" branch="False" />
+            <line number="6" hits="16" branch="False" />
+            <line number="7" hits="14" branch="False" />
+            <line number="9" hits="22" branch="False" />
+            <line number="10" hits="22" branch="False" />
+            <line number="11" hits="22" branch="False" />
+            <line number="12" hits="22" branch="False" />
+            <line number="13" hits="22" branch="False" />
+            <line number="14" hits="22" branch="False" />
+          </lines>
+        </class>
+        <class name="BLL.Entities.Singer" filename="Entities/Singer.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Instrument" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsStudying" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="StudyInstrument" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="2" branch="False" />
+            <line number="8" hits="2" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="BLL.Entities.Student" filename="Entities/Student.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Course" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="23" branch="False" />
+              </lines>
+            </method>
+            <method name="get_StudentTicket" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AverageMark" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Country" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PassportNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsDiving" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Dive" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.String,System.String,System.Int32,System.String,System.Double,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="17" branch="False" />
+                <line number="27" hits="17" branch="False" />
+                <line number="28" hits="17" branch="False" />
+                <line number="29" hits="17" branch="False" />
+                <line number="30" hits="17" branch="False" />
+                <line number="31" hits="17" branch="False" />
+                <line number="32" hits="17" branch="False" />
+                <line number="33" hits="17" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="23" branch="False" />
+            <line number="9" hits="11" branch="False" />
+            <line number="10" hits="32" branch="False" />
+            <line number="11" hits="15" branch="False" />
+            <line number="12" hits="9" branch="False" />
+            <line number="14" hits="2" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="26" hits="17" branch="False" />
+            <line number="27" hits="17" branch="False" />
+            <line number="28" hits="17" branch="False" />
+            <line number="29" hits="17" branch="False" />
+            <line number="30" hits="17" branch="False" />
+            <line number="31" hits="17" branch="False" />
+            <line number="32" hits="17" branch="False" />
+            <line number="33" hits="17" branch="False" />
+          </lines>
+        </class>
+        <class name="BLL.Entities.Tailor" filename="Entities/Tailor.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Int32,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,27 @@
+Summary
+  Generated on: 10/12/2026 - 9:42:25 AM
+  Coverage date: 10/12/2026 - 9:18:24 AM
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 5
+  Files: 5
+  Line coverage: 100%
+  Covered lines: 93
+  Uncovered lines: 0
+  Coverable lines: 93
+  Total lines: 176
+  Branch coverage: 100% (32 of 32)
+  Covered branches: 32
+  Total branches: 32
+  Method coverage: 100% (21 of 21)
+  Full method coverage: 100% (21 of 21)
+  Covered methods: 21
+  Fully covered methods: 21
+  Total methods: 21
+
+BLL                       100%
+  BLL.Entities.Person     100%
+  BLL.Entities.Singer     100%
+  BLL.Entities.Student    100%
+  BLL.Entities.Tailor     100%
+  BLL.StudentService      100%
